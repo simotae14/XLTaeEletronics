@@ -136,3 +136,14 @@ body {
   opacity: 1;
   z-index: 1;
 }
+
+/* WHY */
+#why {
+  padding: 5rem 0;
+  background-color: #f6f6f6;
+}
+
+#why .fa {
+  color: #be2835;
+  padding: 15px 0;
+}
