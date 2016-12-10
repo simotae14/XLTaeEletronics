@@ -116,6 +116,8 @@ body {
 /* WORK */
 #work { padding: 5rem 0; }
 
+#work .header-work { overflow: hidden; }
+
 #work .work-img { position: relative; }
 
 #work .work-img .img-overlay {
@@ -150,7 +152,10 @@ body {
 }
 
 /* CUSTOMERS */
-#customers { padding: 5rem 0; }
+#customers { 
+  padding: 5rem 0;
+  overflow: hidden;
+}
 
 #customers .carousel-indicators li { background-color: #be2835; }
 
