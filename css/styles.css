@@ -17,6 +17,7 @@ body {
   #who hr { margin: 8% auto; }
   #who { text-align: center; }
   #who img { margin-top: 15%; }
+  #footer { text-align: center; }
 }
 
 /* NAVBAR */
@@ -179,3 +180,19 @@ body {
 
 /* CONTACT */
 #contact { padding: 5rem 0; }
+
+/* FOOTER */
+#footer {
+  padding: 2rem 0;
+  background-color: #484848;
+  color: white;
+}
+
+#footer a { 
+  color: white; 
+  transition: all 0.3s ease-in-out;
+}
+
+#footer a:hover { color: #be2835; }
+
+#footer .fa { padding: 0 5px; }
