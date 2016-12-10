@@ -11,7 +11,7 @@ body {
 
 @media(max-width:768px){
   #header { text-align: center; }
-  #header img { margin:0 auto; }  
+  #header img { margin:20px auto 0; }  
   #social { text-align: center; }
   #social hr, 
   #who hr { margin: 8% auto; }
@@ -29,6 +29,10 @@ body {
 
 .navbar .nav .nav-item .nav-link {
   color: #d1d1d1;
+}
+
+.navbar .nav .nav-item {
+  font-size: 0.8em;
 }
 
 .navbar .nav .nav-item .nav-link:hover {
